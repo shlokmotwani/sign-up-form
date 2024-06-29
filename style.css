@@ -102,7 +102,6 @@ body {
   font-weight: 300;
 }
 
-
 #right-center > form > div {
   display: flex;
   margin: 30px 30px 30px 0;
@@ -119,22 +118,24 @@ form label {
   margin-bottom: 6px;
 }
 
-form input{
-    height: 35px;
-    width: 300px;
-    border-radius: 5px;
-    border-color: #E5E7EB;
-    border-width: 1px;
-    font-size: 18px;
-    padding: 5px 5px 5px 8px;
+form input {
+  height: 35px;
+  width: 300px;
+  border-radius: 5px;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  font-size: 18px;
+  padding: 5px 5px 5px 8px;
 }
 
-form input:invalid{
-    border-color: red;
+form input:invalid {
+  outline: none;
+  border-color: red solid 2px;
 }
 
-form input:focus{
-    border-color: blue;
+form input:focus {
+  outline: none;
+  border: blue solid 2px;
 }
 
 #right-bottom > div {
